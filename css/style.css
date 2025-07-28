@@ -30,7 +30,8 @@ form img {
     padding: 10px;
 }
 
-for input[type = "text"], input[type = "password"] {
+
+input[type="text"], input[type="password"] {
     outline: 0;
     border: 1px solid #ccc;
     width: 80%;
