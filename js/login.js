@@ -8,12 +8,12 @@ document.addEventListener("change", (e) => {
         if($visible.checked === false) $password.type = "password";
         else $password.type = "text";
         }
-    });
+});
 document.addEventListener("click", (e) => {
     if (e.target === $submit) {
-        if($password.value !== "" && $username.value != "") {
+        if($password.value !== "" && $username.value !== "") {
             e.preventDefault();
-            window.location.href = "home.html";
+            window.location.href = "../home.html";
         }
     }
 })
